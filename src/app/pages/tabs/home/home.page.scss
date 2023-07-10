@@ -1,0 +1,92 @@
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  img{
+    margin-top: -16px;
+    width: 780px;
+    height: 140px;
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  ion-menu::part(backdrop) {
+    background-color: rgba(0, 140, 255, 0.507);
+  }
+  
+  ion-menu::part(container) {
+    border-radius: 0 20px 20px 0;
+  
+    box-shadow: 4px 0px 16px rgba(255, 0, 255, 0.18);
+  }
+  
+  .profile{
+    width: 80px;
+    height: 80px;
+  }
+  .h1{
+     float: right;
+     margin-right: 50px;
+  }
+  
+  .kuwan ion-icon{
+    align-items: center;
+  }
+  hr.solid {
+    border-top: 2px solid #bbb;
+  }
+  
+  div hehe{
+    justify-content: center;
+  }
+  
+  .cor{
+    border-radius: 25px;
+    margin-right: 10px;
+    padding: 35px;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .el{
+    border-radius: 25px;
+    padding: 35px;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .gr{
+    border-radius: 25px;
+    padding: 35px;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .gm{
+    border-radius: 25px;
+    padding: 35px;
+    width: 44px;
+    height: 41px;
+  }
