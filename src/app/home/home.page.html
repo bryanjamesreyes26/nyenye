@@ -1,0 +1,62 @@
+<ion-header [translucent]="true"> </ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title>School Portal</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="container">
+    <ion-buttons slot="start">
+      <ion-menu-button>
+        <ion-icon name="grid-outline"></ion-icon>
+      </ion-menu-button>
+    </ion-buttons>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title></ion-card-title>
+        <ion-card-subtitle></ion-card-subtitle>
+      </ion-card-header>
+      <div>
+        <img src="/assets/interface.jpeg" alt="interface" />
+      </div>
+
+      <ion-card-content>
+        <img class="profile" src="assets/profile.jpg" alt="profile" />
+        <h1 class="h1">LastName, FirstName, M.</h1>
+
+        <div class="kuwan">
+          <ion-icon name="chevron-forward-circle-outline"></ion-icon>Grade Level
+          <br />
+          <ion-icon name="chevron-forward-circle-outline"></ion-icon>Section
+          <br />
+          <ion-icon name="chevron-forward-circle-outline"></ion-icon>School Year
+        </div>
+        <hr class="solid" />
+
+        <div>
+          <ion-button fill="clear" routerLink="/cor">
+            <ion-icon class="cor" name="document-text-outline"></ion-icon>
+          </ion-button>
+          <h3>Certificate of Registration (COR)</h3>
+
+          <ion-button fill="clear" routerLink="/grades">
+            <ion-icon class="gr" name="book-outline"></ion-icon>
+          </ion-button>
+          <br />
+          <h3>Grades</h3>
+
+          <ion-button fill="clear" routerLink="/enrollment">
+            <ion-icon class="el" name="newspaper-outline"></ion-icon>
+          </ion-button>
+          <h3>Enrollment</h3>
+
+          <ion-button fill="clear" routerLink="/goodmoral">
+            <ion-icon class="gm" name="document-attach-outline"></ion-icon>
+          </ion-button>
+          <h3>Good Moral</h3>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
